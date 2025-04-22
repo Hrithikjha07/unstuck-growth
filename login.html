@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Login | The Unstuck Growth</title>
+    <meta name="description" content="Log in to your Unstuck Growth account to access exclusive resources and personalized services.">
+    <meta name="keywords" content="login, entrepreneur, business growth, mentorship, entrepreneurship, business advisory">
+    <meta name="author" content="Swati Shukla">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theunstuckgrowth.com/login">
+    <meta property="og:title" content="Login | The Unstuck Growth">
+    <meta property="og:description" content="Log in to your Unstuck Growth account to access exclusive resources and personalized services.">
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://theunstuckgrowth.com/login">
+    <meta property="twitter:title" content="Login | The Unstuck Growth">
+    <meta property="twitter:description" content="Log in to your Unstuck Growth account to access exclusive resources and personalized services.">
+    <meta property="twitter:image" content="images/twitter-image.jpg">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+    <!-- Page Navigation (Mobile) -->
+    <div class="page-navigation">
+        <div class="nav-indicator">
+            <div class="nav-bar">
+                <div class="nav-progress"></div>
+            </div>
+        </div>
+        <div class="nav-sections">
+            <a href="index.html#top" class="nav-section" data-section="home">Home</a>
+            <a href="index.html#services" class="nav-section" data-section="services">Services</a>
+            <a href="index.html#knowledge-hub" class="nav-section" data-section="knowledge-hub">Knowledge Hub</a>
+            <a href="index.html#client-stories" class="nav-section" data-section="client-stories">Client Stories</a>
+            <a href="index.html#about" class="nav-section" data-section="about">About</a>
+            <a href="index.html#contact" class="nav-section" data-section="contact">Contact</a>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html#top" class="logo">The Unstuck Growth</a>
+                <div class="nav-links">
+                    <a href="index.html#top">Home</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#knowledge-hub">Knowledge Hub</a>
+                    <a href="index.html#client-stories">Client Stories</a>
+                    <a href="index.html#pricing">Pricing</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+                <button class="mobile-menu-btn" title="Toggle mobile menu"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome Back</h1>
+                <h2>Log in to your Unstuck Growth account</h2>
+                <p>Access exclusive resources, track your progress, and continue your growth journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Account Login</h2>
+                <p>Enter your credentials to access your account</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form id="login-form" class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="Your email address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">Password *</label>
+                            <input type="password" id="password" name="password" placeholder="Your password" required>
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        
+                        <button type="submit" class="btn primary" title="Login">Log In</button>
+                        
+                        <p class="form-login-link">Don't have an account? <a href="entrepreneur-signup.html">Sign up here</a></p>
+                        <p class="form-login-link"><a href="#" id="forgot-password-link">Forgot your password?</a></p>
+                    </form>
+                    
+                    <div id="login-error" class="alert-box error" style="display: none;"></div>
+                    <div id="login-success" class="alert-box success" style="display: none;"></div>
+                    
+                    <!-- Forgot Password Form (initially hidden) -->
+                    <form id="forgot-password-form" class="contact-form" style="display: none;">
+                        <h3>Reset Password</h3>
+                        <p>Enter your email address below. We'll send you a link to reset your password.</p>
+                        
+                        <div class="form-group">
+                            <label for="reset-email">Email Address *</label>
+                            <input type="email" id="reset-email" name="email" placeholder="Your email address" required>
+                        </div>
+                        
+                        <button type="submit" class="btn primary" title="Send Reset Link">Send Reset Link</button>
+                        <button type="button" id="back-to-login" class="btn secondary" title="Back to Login">Back to Login</button>
+                        
+                        <div id="reset-error" class="alert-box error" style="display: none;"></div>
+                        <div id="reset-success" class="alert-box success" style="display: none;"></div>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="why-join">
+                        <h3>Why Join Our Young Entrepreneurs Community?</h3>
+                        <ul class="benefits-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Expert Mentorship</h4>
+                                    <p>Connect with seasoned entrepreneurs and business advisors from McKinsey, Amazon, and other top companies</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Exclusive Resources</h4>
+                                    <p>Access business templates, growth frameworks, and step-by-step guides to build your venture</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Community Network</h4>
+                                    <p>Connect with like-minded young entrepreneurs for collaboration, support, and partnership opportunities</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Personal Growth</h4>
+                                    <p>Develop essential business skills and mindset to succeed in today's competitive landscape</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-branding">
+                    <h3 class="footer-logo">The Unstuck Growth</h3>
+                    <p class="footer-tagline">Guiding ambitious entrepreneurs to sustainable growth and success</p>
+                    <div class="social-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-link-group">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html#top">Home</a></li>
+                            <li><a href="index.html#services">Services</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="index.html#knowledge-hub">Knowledge Hub</a></li>
+                            <li><a href="entrepreneur-signup.html">Young Entrepreneurs</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Podcast</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 The Unstuck Growth. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+    
+    <!-- JS -->
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html> 

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Young Entrepreneur Sign Up | The Unstuck Growth</title>
+    <meta name="description" content="Join our Young Entrepreneurs community for exclusive resources, mentorship, and growth opportunities to accelerate your entrepreneurial journey.">
+    <meta name="keywords" content="young entrepreneur, startup, business growth, mentorship, entrepreneurship, business advisory">
+    <meta name="author" content="Swati Shukla">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theunstuckgrowth.com/entrepreneur-signup">
+    <meta property="og:title" content="Young Entrepreneur Sign Up | The Unstuck Growth">
+    <meta property="og:description" content="Join our Young Entrepreneurs community for exclusive resources, mentorship, and growth opportunities.">
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://theunstuckgrowth.com/entrepreneur-signup">
+    <meta property="twitter:title" content="Young Entrepreneur Sign Up | The Unstuck Growth">
+    <meta property="twitter:description" content="Join our Young Entrepreneurs community for exclusive resources, mentorship, and growth opportunities.">
+    <meta property="twitter:image" content="images/twitter-image.jpg">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+    <!-- Page Navigation (Mobile) -->
+    <div class="page-navigation">
+        <div class="nav-indicator">
+            <div class="nav-bar">
+                <div class="nav-progress"></div>
+            </div>
+        </div>
+        <div class="nav-sections">
+            <a href="index.html#top" class="nav-section" data-section="home">Home</a>
+            <a href="index.html#services" class="nav-section" data-section="services">Services</a>
+            <a href="index.html#knowledge-hub" class="nav-section" data-section="knowledge-hub">Knowledge Hub</a>
+            <a href="index.html#client-stories" class="nav-section" data-section="client-stories">Client Stories</a>
+            <a href="index.html#about" class="nav-section" data-section="about">About</a>
+            <a href="index.html#contact" class="nav-section" data-section="contact">Contact</a>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html#top" class="logo">The Unstuck Growth</a>
+                <div class="nav-links">
+                    <a href="index.html#top">Home</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#knowledge-hub">Knowledge Hub</a>
+                    <a href="index.html#client-stories">Client Stories</a>
+                    <a href="index.html#pricing">Pricing</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+                <button class="mobile-menu-btn" title="Toggle mobile menu"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Young Entrepreneur Sign Up</h1>
+                <h2>Join our community of ambitious founders and future business leaders</h2>
+                <p>Get exclusive access to resources, mentorship, and growth strategies tailored specifically for young entrepreneurs like you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign Up Section -->
+    <section id="signup" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Create Your Account</h2>
+                <p>Start your journey with The Unstuck Growth</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form id="entrepreneur-signup-form" class="contact-form" action="/api/register" method="POST">
+                        <h3>Personal Information</h3>
+                        
+                        <div class="form-group">
+                            <label for="full-name">Full Name *</label>
+                            <input type="text" id="full-name" name="fullName" placeholder="Your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="Your email address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">Password *</label>
+                            <input type="password" id="password" name="password" placeholder="Create a password" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password *</label>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                        </div>
+                        
+                        <h3>Entrepreneurial Profile</h3>
+                        
+                        <div class="form-group">
+                            <label for="age">Age Range *</label>
+                            <select id="age" name="age" required>
+                                <option value="" disabled selected>Select your age range</option>
+                                <option value="under-18">Under 18</option>
+                                <option value="18-24">18-24</option>
+                                <option value="25-34">25-34</option>
+                                <option value="35-44">35-44</option>
+                                <option value="45+">45+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="business-stage">Current Business Stage *</label>
+                            <select id="business-stage" name="businessStage" required>
+                                <option value="" disabled selected>Select your current stage</option>
+                                <option value="idea">Just an idea</option>
+                                <option value="planning">Planning phase</option>
+                                <option value="early-startup">Early-stage startup</option>
+                                <option value="growing">Growing business</option>
+                                <option value="established">Established business</option>
+                                <option value="none">No business yet</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="industry">Industry/Sector *</label>
+                            <select id="industry" name="industry" required>
+                                <option value="" disabled selected>Select your industry</option>
+                                <option value="technology">Technology/Software</option>
+                                <option value="ecommerce">E-Commerce</option>
+                                <option value="health">Health/Wellness</option>
+                                <option value="education">Education</option>
+                                <option value="finance">Finance/FinTech</option>
+                                <option value="media">Media/Entertainment</option>
+                                <option value="food">Food/Beverage</option>
+                                <option value="service">Professional Services</option>
+                                <option value="manufacturing">Manufacturing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="goals">Your Top Entrepreneurial Goals *</label>
+                            <textarea id="goals" name="goals" rows="4" placeholder="What are your main goals as a young entrepreneur?" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="challenges">Current Challenges</label>
+                            <textarea id="challenges" name="challenges" rows="4" placeholder="What challenges are you currently facing in your entrepreneurial journey?"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="referral">How did you hear about us?</label>
+                            <select id="referral" name="referral">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="search">Search Engine</option>
+                                <option value="social">Social Media</option>
+                                <option value="friend">Friend/Colleague</option>
+                                <option value="event">Event/Conference</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter" checked>
+                            <label for="newsletter">Subscribe to our newsletter for tips, resources, and updates</label>
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a> *</label>
+                        </div>
+                        
+                        <div id="signup-error" class="alert-box error" style="display: none;"></div>
+                        <div id="signup-success" class="alert-box success" style="display: none;"></div>
+                        
+                        <button type="submit" class="btn primary" title="Create account">Create My Account</button>
+                        
+                        <p class="form-login-link">Already have an account? <a href="login.html">Log in here</a></p>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="why-join">
+                        <h3>Why Join Our Young Entrepreneurs Community?</h3>
+                        <ul class="benefits-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Expert Mentorship</h4>
+                                    <p>Connect with seasoned entrepreneurs and business advisors from McKinsey, Amazon, and other top companies</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Exclusive Resources</h4>
+                                    <p>Access business templates, growth frameworks, and step-by-step guides to build your venture</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Community Network</h4>
+                                    <p>Connect with like-minded young entrepreneurs for collaboration, support, and partnership opportunities</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Special Events</h4>
+                                    <p>Invitations to workshops, webinars, and networking events designed for early-stage founders</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Growth Tracking</h4>
+                                    <p>Tools to track your progress and celebrate milestones on your entrepreneurial journey</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section class="success-stories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Young Entrepreneur Success Stories</h2>
+                <p>Meet community members who have achieved remarkable growth</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">"Joining the Young Entrepreneurs community at The Unstuck Growth was the turning point for my business. The mentorship and resources helped me secure my first $100K in funding within 3 months!"</p>
+                        <p class="testimonial-full">The comprehensive resources and personalized guidance from expert mentors at The Unstuck Growth completely transformed my approach to business. I went from having just a concept to securing seed funding and launching a viable product that customers love. The community support from fellow entrepreneurs has been invaluable for navigating the challenges of early-stage growth.</p>
+                        <p class="client">— Sarah J., 24, Fintech Founder</p>
+                    </div>
+                    <div class="testimonial-date">Member since 2022</div>
+                    <button class="read-more-btn" title="Read full testimonial">Read More</button>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">"As a college student with a side hustle, I didn't know how to scale. The frameworks and community at The Unstuck Growth helped me turn my project into a full-time business generating $10K/month."</p>
+                        <p class="testimonial-full">I started with just a small Instagram shop selling custom apparel while in college. The strategic advice and practical business tools from The Unstuck Growth helped me develop systems, optimize my marketing, and build a small team. What started as a way to pay for textbooks has now become my career, allowing me to graduate debt-free and focus on growing my business.</p>
+                        <p class="client">— Marcus T., 22, E-commerce Entrepreneur</p>
+                    </div>
+                    <div class="testimonial-date">Member since 2023</div>
+                    <button class="read-more-btn" title="Read full testimonial">Read More</button>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">"The product strategy workshops and dedicated mentorship sessions helped me refine my app idea and successfully launch with over 5,000 users in the first month."</p>
+                        <p class="testimonial-full">I had the technical skills to build an app but struggled with product-market fit and go-to-market strategy. Through The Unstuck Growth's targeted workshops and one-on-one mentorship, I learned how to conduct effective user research, prioritize features, and create a compelling launch strategy. The guidance on user acquisition channels was particularly valuable, helping me achieve growth metrics that exceeded my expectations.</p>
+                        <p class="client">— Aisha K., 26, Mobile App Developer</p>
+                    </div>
+                    <div class="testimonial-date">Member since 2021</div>
+                    <button class="read-more-btn" title="Read full testimonial">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about our Young Entrepreneurs program</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Is there a membership fee to join?</h4>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Basic membership is completely free. We also offer premium tiers with additional benefits and personalized mentorship for those looking for more intensive support.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What if I only have a business idea but haven't started yet?</h4>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>That's perfect! Our community is designed for entrepreneurs at all stages, including those just starting with an idea. We have specific resources and support for ideation and validation phases.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>How much time commitment is required?</h4>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The program is flexible and self-paced. You can engage as much or as little as your schedule allows, with options ranging from weekly events to monthly check-ins.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you help with funding opportunities?</h4>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We regularly connect promising young entrepreneurs with our network of investors, provide pitch deck review, and offer guidance on grant applications and fundraising strategies.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Can I join if I'm not in a tech-related business?</h4>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. Our community welcomes entrepreneurs from all industries and sectors. We have members running everything from food businesses to creative services to manufacturing startups.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What resources will I get access to?</h4>
+                        <span class="toggle-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Members receive access to our resource library including business templates, marketing guides, financial modeling tools, legal resources, growth frameworks, and exclusive industry research reports.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="startup-cta">
+        <div class="container">
+            <h3>Ready to Accelerate Your Entrepreneurial Journey?</h3>
+            <p>Join our community of ambitious young entrepreneurs and get the support, resources, and connections you need to succeed.</p>
+            <a href="#signup" class="btn primary">Sign Up Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>The Unstuck Growth</h3>
+                    <p>Strategic advisory platform for ambitious founders and professionals. Expert guidance in product strategy, marketing, and career development.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <a href="index.html#services">Startup Advisory</a>
+                    <a href="index.html#services">Product Strategy</a>
+                    <a href="index.html#services">Career Coaching</a>
+                    <a href="index.html#services">MBA Consulting</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <a href="index.html#knowledge-hub">Knowledge Hub</a>
+                    <a href="index.html#client-stories">Client Stories</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Podcast</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="index.html#about">About Us</a>
+                    <a href="index.html#contact">Contact</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for the latest insights and tips.</p>
+                    <form action="#" method="POST">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" title="Subscribe to newsletter"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 The Unstuck Growth. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#top" class="back-to-top" title="Back to Top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Mobile Quick Contact Banner -->
+    <div class="mobile-quick-contact">
+        <div class="quick-actions">
+            <a href="tel:+1234567890" class="quick-action call">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call</span>
+            </a>
+            <a href="#contact" class="quick-action message">
+                <i class="fas fa-comment"></i>
+                <span>Message</span>
+            </a>
+            <a href="https://calendly.com/" target="_blank" rel="noopener" class="quick-action calendar">
+                <i class="fas fa-calendar-alt"></i>
+                <span>Book</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html> 

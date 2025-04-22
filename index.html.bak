@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>The Unstuck Growth | Strategic Advisory for Businesses & Professionals</title>
+    <meta name="description" content="Strategic advisory platform for ambitious founders and professionals. Expert guidance in product strategy, marketing, and career development from McKinsey & Amazon alumni.">
+    <meta name="keywords" content="startup advisor, product strategy, career mentorship, MBA consulting, business growth, McKinsey, Amazon, leadership">
+    <meta name="author" content="Swati Shukla">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theunstuckgrowth.com/">
+    <meta property="og:title" content="The Unstuck Growth | Strategic Advisory Platform">
+    <meta property="og:description" content="Strategic advisory for ambitious founders and professionals. Expert guidance in product strategy, marketing, and career development.">
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://theunstuckgrowth.com/">
+    <meta property="twitter:title" content="The Unstuck Growth | Strategic Advisory Platform">
+    <meta property="twitter:description" content="Strategic advisory for ambitious founders and professionals. Expert guidance in product strategy, marketing, and career development.">
+    <meta property="twitter:image" content="images/twitter-image.jpg">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Page Navigation (Mobile) -->
+    <div class="page-navigation">
+        <div class="nav-indicator">
+            <div class="nav-bar">
+                <div class="nav-progress"></div>
+            </div>
+        </div>
+        <div class="nav-sections">
+            <a href="#" class="nav-section active" data-section="home">Home</a>
+            <a href="#startup-services" class="nav-section" data-section="startup-services">Startup Services</a>
+            <a href="#service-packages" class="nav-section" data-section="service-packages">Startup Packages</a>
+            <a href="#testimonials" class="nav-section" data-section="testimonials">Testimonials</a>
+            <a href="#career-advisory" class="nav-section" data-section="career-advisory">Career Advisory</a>
+            <a href="#pricing" class="nav-section" data-section="pricing">Career Pricing</a>
+            <a href="#about" class="nav-section" data-section="about">About</a>
+            <a href="#contact" class="nav-section" data-section="contact">Contact</a>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">The Unstuck Growth</a>
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#startup-services">Startup Services</a>
+                    <a href="#service-packages">Startup Packages</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#career-advisory">Career Advisory</a>
+                    <a href="#pricing">Career Pricing</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Strategic Advisory for Growth-Focused Leaders</h1>
+                <h2>Navigate your next big move with clarity and confidence</h2>
+                <p>Whether you're launching a startup, scaling a product, or advancing your career, our expert guidance helps you break through barriers and achieve sustainable growth.</p>
+                <div class="cta-buttons">
+                    <a href="#startup-services" class="btn primary">Explore Services</a>
+                    <a href="#pricing" class="btn secondary">View Pricing</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Home Section -->
+    <section id="about-home" class="about-home">
+        <div class="container">
+            <div class="section-header">
+                <h2>About The Unstuck Growth</h2>
+                <p>Your partner for strategic growth and career advancement</p>
+            </div>
+            
+            <div class="about-home-content">
+                <div class="about-home-text">
+                    <p>The Unstuck Growth is a modern startup advisory and career coaching platform built for ambitious founders, product managers, and professionals navigating their next big leap.</p>
+                    <p>Whether you're launching your first MVP, scaling a product strategy, or transitioning into a new product management role—we provide the frameworks, tools, and expert support to help you grow with confidence.</p>
+                </div>
+                
+                <div class="what-we-do">
+                    <h3>What We Do</h3>
+                    <p>We partner with early-stage startups and career-focused individuals to:</p>
+                    <ul class="what-we-do-list">
+                        <li><i class="fas fa-check-circle"></i> Find product-market fit</li>
+                        <li><i class="fas fa-check-circle"></i> Unlock user traction</li>
+                        <li><i class="fas fa-check-circle"></i> Overcome growth barriers</li>
+                        <li><i class="fas fa-check-circle"></i> Navigate career pivots</li>
+                        <li><i class="fas fa-check-circle"></i> Build standout resumes and portfolios</li>
+                    </ul>
+                </div>
+                
+                <div class="focus-areas">
+                    <h3>Our Focus Areas</h3>
+                    <ul class="focus-areas-list">
+                        <li>
+                            <div class="focus-icon"><i class="fas fa-lightbulb"></i></div>
+                            <div class="focus-content">
+                                <h4>Product Strategy</h4>
+                                <p>MVP planning, roadmaps, and 0→1 execution</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="focus-icon"><i class="fas fa-bullhorn"></i></div>
+                            <div class="focus-content">
+                                <h4>Marketing & Messaging</h4>
+                                <p>Positioning, copy, and channel fit</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="focus-icon"><i class="fas fa-rocket"></i></div>
+                            <div class="focus-content">
+                                <h4>Go-To-Market (GTM)</h4>
+                                <p>Funnel strategy, launch checklists, and conversions</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Startup Services Section (Moved up as requested) -->
+    <section id="startup-services" class="startup-services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Startup Service Hierarchy</h2>
+                <p>Strategic support at every stage of your startup journey</p>
+            </div>
+            
+            <div class="startup-intro">
+                <h3>Startup Service Hierarchy</h3>
+                <p>Choose the service that matches your current stage and needs</p>
+            </div>
+            
+            <!-- Idea Validation Section -->
+            <div class="startup-category">
+                <div class="category-header">
+                    <h3>Idea Validation</h3>
+                    <p>Test before you build. Build what users crave.</p>
+                </div>
+                
+                <div class="startup-services-grid">
+                    <div class="startup-service-card">
+                        <h4>Idea Lab</h4>
+                        <p class="service-description">Got a spark of an idea? Let's shape it into something real.</p>
+                        <p class="service-audience">Perfect for aspiring founders or side hustlers testing the waters.</p>
+                        
+                        <div class="service-details">
+                            <div class="detail-item">
+                                <h5>Why it's for you:</h5>
+                                <p>You're exploring a concept and want to know if it's worth building.</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h5>What you'll get:</h5>
+                                <p>Clarity, focus, and confidence in your startup direction.</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h5>What we'll do:</h5>
+                                <p>Collaborative brainstorming, refine your vision, and uncover your "why."</p>
+                            </div>
+                        </div>
+                        
+                        <a href="https://calendly.com/unstuckgrowth/ask-me-anything" class="btn primary" target="_blank" rel="noopener noreferrer">Book a Session</a>
+                    </div>
+                    
+                    <div class="startup-service-card">
+                        <h4>Problem Discovery & Fit</h4>
+                        <p class="service-description">Does your solution actually solve a real problem? Let's find out.</p>
+                        <p class="service-audience">Ideal for early founders unsure if there's a true need for their idea.</p>
+                        
+                        <div class="service-details">
+                            <div class="detail-item">
+                                <h5>Why it's for you:</h5>
+                                <p>You're building something but not 100% sure it solves a pain point.</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h5>What you'll get:</h5>
+                                <p>Validation (or redirection) through user insight and need analysis.</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h5>What we'll do:</h5>
+                                <p>Analyze the problem, test assumptions, and sharpen your solution's value.</p>
+                            </div>
+                        </div>
+                        
+                        <a href="https://calendly.com/unstuckgrowth/ask-me-anything" class="btn primary" target="_blank" rel="noopener noreferrer">Book a Session</a>
+                    </div>
+                    
+                    <div class="startup-service-card">
+                        <h4>Persona Paintbox</h4>
+                        <p class="service-description">Know exactly who you're building for—before you build.</p>
+                        <p class="service-audience">Made for founders who want to deeply understand their target users.</p>
+                        
+                        <div class="service-details">
+                            <div class="detail-item">
+                                <h5>Why it's for you:</h5>
+                                <p>You're not clear on your audience or struggling with messaging.</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h5>What you'll get:</h5>
+                                <p>Actionable customer personas and real-world user journey maps.</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h5>What we'll do:</h5>
+                                <p>Define user profiles, behaviors, pain points, and map their journeys.</p>
+                            </div>
+                        </div>
+                        
+                        <a href="https://calendly.com/unstuckgrowth/ask-me-anything" class="btn primary" target="_blank" rel="noopener noreferrer">Book a Session</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- More Startup Service Categories -->
+            <!-- Additional service categories from the original page would go here -->
+        </div>
+    </section>
+
+    <!-- Startup Advisory Packages Section (Moved up as requested) -->
+    <section id="service-packages" class="service-packages">
+        <div class="container">
+            <div class="section-header">
+                <h2>Startup Advisory Packages</h2>
+                <p>Select the right level of support for your business</p>
+            </div>
+            
+            <!-- Packages content goes here -->
+            <div class="packages-intro">
+                <p>Choose from our structured advisory packages designed to solve specific challenges at different stages of your startup journey.</p>
+            </div>
+            
+            <div class="packages-grid">
+                <!-- Packages from the original page would go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section (Moved as requested) -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimonials</h2>
+                <p>What our clients say about working with us</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">Swati quickly understood my startup challenges and offered clear, actionable guidance. Her sessions were incredibly valuable!</p>
+                        <p class="testimonial-full">I had an excellent mentoring session with Swati. She quickly understood my startup's challenges and provided clear, actionable guidance. Swati's insightful approach and practical advice have been incredibly valuable, prompting me to have more sessions to continue benefiting from her expertise. Highly recommended for anyone serious about scaling their startup!</p>
+                        <p class="client">- Sandeep Khemka <span class="testimonial-date">17 Mar 2025</span></p>
+                        <button class="read-more-btn" aria-label="Read more testimonial from Sandeep Khemka">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">Swati's idea validation guidance really helped get my thinking back on track. She kindly extended our session too.</p>
+                        <p class="testimonial-full">Swati was very kind and smoothly extended the session until I needed her time. Experiencing her detailed orientation about idea validation got my thinking hat on track.</p>
+                        <p class="client">- Muhammad Asif <span class="testimonial-date">4 Mar 2025</span></p>
+                        <button class="read-more-btn" aria-label="Read more testimonial from Muhammad Asif">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">She provided immediate value and her experience came through instantly.</p>
+                        <p class="testimonial-full">Swati was super helpful. She provided immediate value and her experience came through instantly. I look forward to nurturing a relationship with her.</p>
+                        <p class="client">- Antoine Levy <span class="testimonial-date">3 Mar 2025</span></p>
+                        <button class="read-more-btn" aria-label="Read more testimonial from Antoine Levy">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">She helped me with better interview strategies and even gave me more time. So helpful!</p>
+                        <p class="testimonial-full">Really good feedback, she helped me with a better methodology to answer interview questions and even gave me more time which was really helpful. Thank you so much!</p>
+                        <p class="client">- Matthew <span class="testimonial-date">19 Feb 2025</span></p>
+                        <button class="read-more-btn" aria-label="Read more testimonial from Matthew">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">Her advice gave me clarity on next steps. I'll be coming back for more support!</p>
+                        <p class="testimonial-full">Very helpful session to give me a bit of direction for next steps. I have agreed to come back to Swati once I have actioned some of her advice and have access to my analytics to review.</p>
+                        <p class="client">- Paula Moss <span class="testimonial-date">26 Jan 2025</span></p>
+                        <button class="read-more-btn" aria-label="Read more testimonial from Paula Moss">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">Swati took time to understand my campaign and gave me clear, actionable steps. Her patience really stood out!</p>
+                        <p class="testimonial-full">Swati was really helpful! She took time to understand what I am trying to do with my current campaign and provided a lot of steps and actions to take to create alignment. I tend to get overwhelmed with all the thoughts in my head, and appreciated Swati's patience as I shared the steps and actions I am taking. Thanks so much Swati!</p>
+                        <p class="client">- Anjali Datwani <span class="testimonial-date">13 Jan 2025</span></p>
+                        <button class="read-more-btn" aria-label="Read more testimonial from Anjali Datwani">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testimonial-short">Swati offered practical advice I could use immediately and brought fresh perspective to areas I hadn't considered.</p>
+                        <p class="testimonial-full">My session with Swati was very insightful. She took her time to understand the context and what my background was. She gave me very practical suggestions that I can implement right away and also focused me on aspects that are important but that I hadn't considered yet. I look forward to engaging further with her.</p>
+                        <p class="client">- Rose Nzyoka <span class="testimonial-date">13 Jan 2025</span></p>
+                        <button class="read-more-btn" aria-label="Read more testimonial from Rose Nzyoka">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Advisory Section (Moved as requested) -->
+    <section id="career-advisory" class="career-advisory">
+        <div class="container">
+            <div class="section-header">
+                <h2>Career Advisory Services</h2>
+                <p>Navigate your career path with strategic guidance</p>
+            </div>
+            
+            <!-- Include the Career Advisory content from the original page -->
+        </div>
+    </section>
+
+    <!-- Career Pricing Section (Moved as requested) -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Career Advisory Pricing</h2>
+                <p>Founder-friendly. Flexible. Based on where you are in your career.</p>
+            </div>
+            
+            <!-- Include pricing content from the original page -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p>Experience-backed advisory to unlock your potential</p>
+            </div>
+            
+            <!-- Include about content from the original page -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch to discuss how we can help your business succeed</p>
+            </div>
+            
+            <!-- Include contact content from the original page -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>The Unstuck Growth</h3>
+                    <p>Strategic advisory for founders and professionals ready to accelerate their growth.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <a href="#startup-services">Startup Services</a>
+                        <a href="#service-packages">Advisory Packages</a>
+                        <a href="#career-advisory">Career Advisory</a>
+                        <a href="#pricing">Pricing</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#about">About Us</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#success-stories">Success Stories</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <p>Get the latest insights, tips, and resources for your growth journey.</p>
+                    <form>
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 The Unstuck Growth. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
